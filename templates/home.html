@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>analisisku</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css')}}">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md shadow" style="background: #3591ae;">
+        <div class="container"><a class="navbar-brand" href="#">ANALISIS SENTIMEN - NBGRAM</a></div>
+    </nav>
+
+    <div>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" align="center">VAKSIN REKOMENDASI</h5>
+                    <h6 align="center"><span class="badge badge-danger">Negative</span>
+                        <span class="badge badge-primary">Positive</span></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" align="center">
+                        <H5>VAKSIN SINOVAC</H5>
+                        <h6><span class="badge badge-danger">Negative</span>
+                            <span class="badge badge-primary">Positive</span></h6>
+                        <a href="#" class="btn btn-warning btn-sm">Upload File</a>
+                        <a href="#" class="btn btn-success btn-sm">Show Detail</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" align="center">
+                        <H5>VAKSIN ASTRAZENECA</H5>
+                        <h6><span class="badge badge-danger">Negative</span>
+                            <span class="badge badge-primary">Positive</span></h6>
+                        <a href="#" class="btn btn-warning btn-sm">Upload File</a>
+                        <a href="#" class="btn btn-success btn-sm">Show Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" align="center">
+                        <H5>VAKSIN MODERNA</H5>
+                        <h6><span class="badge badge-danger">Negative</span>
+                            <span class="badge badge-primary">Positive</span></h6>
+                        <a href="#" class="btn btn-warning btn-sm">Upload File</a>
+                        <a href="#" class="btn btn-success btn-sm">Show Detail</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" align="center">
+                        <H5>VAKSIN PFIZER</H5>
+                        <h6><span class="badge badge-danger">Negative</span>
+                            <span class="badge badge-primary">Positive</span></h6>
+                        <a href="#" class="btn btn-warning btn-sm">Upload File</a>
+                        <a href="#" class="btn btn-success btn-sm">Show Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
+</body>
+
+</html>
